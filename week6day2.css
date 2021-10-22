@@ -1,0 +1,34 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #eeeeee;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 135px 135px 135px 135px;
+    grid-template-rows: 130px 130px 130px 130px;
+    padding: 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 125px;
+}
+.grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #333333;
+
+}
+.button{
+    padding: 63.5px 67px;
+    justify-content: center;
+    margin: -22px -21px;
+    border: solid;
+    background-color:#333333;
+   
+}
+.changeButtoncolor{ 
+    background-color: #999999;
+
+}
